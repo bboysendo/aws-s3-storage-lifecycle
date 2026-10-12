@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored — never commit it.
+
+aws_region  = "us-east-1"
+bucket_name = "s3-lifecycle-lab-documents-change-me-12345" # must be globally unique
+
+# project_name                        = "s3-lifecycle-lab"
+# lifecycle_ia_transition_days        = 30
+# lifecycle_glacier_transition_days   = 90
+# lifecycle_expiration_days           = 365
+# noncurrent_version_ia_days          = 30
+# noncurrent_version_expiration_days  = 90
